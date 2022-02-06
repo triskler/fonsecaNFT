@@ -17,6 +17,7 @@ header .container{
     display: flex;
     justify-content: space-between;
     padding: 30px 30px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%);
     
 }
 header a{
@@ -25,14 +26,13 @@ header a{
     color: rgba(66, 66, 240, 0.7);
     margin-right: 20px;
     font-size: 30px;
+    border-radius: 100%;
 }
 header a:hover{
     color: rgb(245, 245, 250);
     transition: 1.5s;
     background-color: rgb(91, 5, 228);
-    border-radius: 100%;
     padding: 10px 20px;
-    border:1px solid #0000
 }
 .centro{
     text-align: center;
