@@ -1,19 +1,42 @@
 * {
     margin: 0;
-    padding: 0;
+    border: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-header{
-    display: block;
-    border: 1px solid black;
-
+body{
+    font-size: 16px;
+    background: url("/assets/Dark\ Blue\ Simple\ Dark\ Tech\ and\ Gaming\ Bio-Link\ Website.png");
+    font-family: 'Yellowtail', cursive;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
 
-header div nav{
+header .container{
     display: flex;
-    align-content: center;
-    flex-direction: row;
-
+    justify-content: space-between;
+    padding: 30px 30px;
+    
+}
+header a{
+    text-decoration: none;
+    text-transform:capitalize;
+    color: rgba(66, 66, 240, 0.7);
+    margin-right: 20px;
+    font-size: 30px;
+}
+header a:hover{
+    color: rgb(245, 245, 250);
+    transition: 1.5s;
+    background-color: rgb(91, 5, 228);
+    border-radius: 100%;
+    padding: 10px 20px;
+    border:1px solid #0000
+}
+.centro{
+    text-align: center;
+    margin-top: 200px;
+    color: rgba(193, 192, 255, 0.3);
+    font-size: 100px;
 }
