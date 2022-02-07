@@ -1,6 +1,8 @@
 var button = document.getElementById("button");
 var audio = document.getElementById("myAudio");
 
+
+
 button.addEventListener("click", function(){
     if(audio.paused){
     audio.play();
@@ -10,3 +12,4 @@ button.addEventListener("click", function(){
     button.innerHTML = "Play";
     }
 });
+
