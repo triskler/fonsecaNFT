@@ -1,3 +1,64 @@
-.btn{
-    background-color: blue;
+:root {
+    --body-background: #0e0e0e;
+    --color-logo: #ff5b50;
+    --card-color: #252525;
+    --text-color: #fff;
+    --subtitle-color: #5a5757;
+    --black-text: #000;
+    --color-input: #0D0D0D;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 1440px;
+    height: 4437px;
+    background: #0E0E0E;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+#orange{
+    color: #ff5b50;
+}
+.logo{
+    position: absolute;
+    width: 265px;
+    height: 43px;
+    left: 82px;
+    top: 57px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+}
+nav{
+    position: absolute;
+    width: 341px;
+    height: 24px;
+    left: 550px;
+    top: 76px;
+    display: flex;
+    gap: 60px;
+}
+button{
+    position: absolute;
+    width: 230px;
+    height: 50px;
+    left: 1129px;
+    top: 57px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 10px;
+    font-weight: bold;
 }
