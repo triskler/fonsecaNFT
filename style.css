@@ -40,10 +40,26 @@ a{
     font-size: 18px;
     line-height: 22px;
 }
+.gallery{
+    position: absolute;
+    width: 1277px;
+    height: 456.4px;
+    left: 82px;
+    top: 543px;
+    border: 1px solid #5a5757;
+}
 .main1{
     border: 1px solid #ff5b50;
     display: flex;
     flex-grow: 1;
+}
+.main2{
+    position: absolute;
+    width: 1440px;
+    height: 660px;
+    left: 0px;
+    top: 1000px;
+    border: 1px solid #fff;
 }
 .first{
     display: flex;
