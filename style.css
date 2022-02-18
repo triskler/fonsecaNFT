@@ -28,7 +28,10 @@ a{
     text-decoration: none;
     color: #fff;
 }
-#orange{
+p{
+    color: #5a5757;
+}
+.orange{
     color: #ff5b50;
 }
 .text{
@@ -40,16 +43,63 @@ a{
     font-size: 18px;
     line-height: 22px;
 }
+.container{
+    color: #fff;
+    width: 435px;
+    height: 114px;
+}
 .gallery{
     position: absolute;
     width: 1277px;
     height: 456.4px;
-    left: 82px;
-    top: 543px;
-    border: 1px solid #5a5757;
+    left: 100px;
+    top: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.up{
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.down{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.cite{
+    width: 952px;
+    height: 214px;
+    border: #ff5b50 solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+}
+.amount{
+    width: 127px;
+    height: 386px;
+    border: #ff5b50 solid;
+    align-self:flex-start;
+    text-align: center;
+    padding-top: 30px;
+}
+.itemA{
+    height: 195px;
+    width: 300px;
+    border: #ff5b50 dashed;
+}
+.item{
+    height: 195px;
+    width: 300px;
+    border: #ff5b50 dashed;
 }
 .main1{
-    border: 1px solid #ff5b50;
     display: flex;
     flex-grow: 1;
 }
@@ -57,9 +107,117 @@ a{
     position: absolute;
     width: 1440px;
     height: 660px;
-    left: 0px;
-    top: 1000px;
+    left: 25px;
+    top: 1200px;
     border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 401px;
+    height: 88px;
+    font-size: 18px;
+    line-height: 22px;
+}
+.avatar{
+    width: 369px;
+    height: 87px;
+    display: flex;
+    align-items: baseline;
+}
+.figure{
+    width: 169px;
+    height: 87px;
+    display: flex;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#teste{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    order: 4;
+
+}
+#teste2{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    order: 3;
+}
+#teste3{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    order: 2;
+}
+#teste4{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    order: 1;
+}
+.img1{
+    position: absolute;
+    width: 95px;
+    height: 86px;
+    left: 3px;
+    top: 160px;
+    order: 0;
+    
+}
+.img2{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    position: absolute;
+    left: 30px;
+    top: 160px;
+    order: 1;
+
+}
+.img3{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    position: absolute;
+    left: 60px;
+    top: 160px;
+    order: 2;
+
+}
+.img4{
+    width: 95px;
+    height: 86px;
+    border-radius: 100px;
+    position: absolute;
+    left: 90px;
+    top: 160px;
+    order: 1;
+}
+
+#ten{
+    width: 198px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 25px;
+}
+.middle{
+    width: 596px;
+    height: 246px;
+    font-size: 50px;
+    line-height: 61px;
+    position: relative;
+    left: 70px;
+    
 }
 .first{
     display: flex;
@@ -67,8 +225,9 @@ a{
     position: absolute;
     width: 1277px;
     height: 246px;
-    left: 82px;
-    top: 197px; 
+    left: 80px;
+    top: 250px; 
+    margin: 20px 0px;
 }
 .logo{
     position: absolute;
