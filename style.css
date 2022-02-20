@@ -31,6 +31,9 @@ a{
 p{
     color: #5a5757;
 }
+h2{
+    display: inline;
+}
 .orange{
     color: #ff5b50;
 }
@@ -74,7 +77,6 @@ p{
 .cite{
     width: 952px;
     height: 214px;
-    border: #ff5b50 solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,10 +86,10 @@ p{
 .amount{
     width: 127px;
     height: 386px;
-    border: #ff5b50 solid;
     align-self:flex-start;
     text-align: center;
     padding-top: 30px;
+    font-size: larger;
 }
 .itemA{
     height: 195px;
@@ -109,10 +111,17 @@ p{
     height: 660px;
     left: 25px;
     top: 1200px;
-    border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.main3{
+    position: absolute;
+    width: 1265.9px;
+    height: 937px;
+    left: 100px;
+    top: 2050px;
+    border: #ff5b50 solid;
 }
 .text{
     width: 401px;
